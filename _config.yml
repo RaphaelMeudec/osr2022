@@ -277,15 +277,13 @@ paginate_path: "/news/page:num/"
 plugins:
   - pagemaster
 
-# collections:
+collections:
+  volunteers:
+    output: true
+    permalink: /:collection/:name
+
 #   speakers:
 #     output: true
 #     source: speakers.csv
-#     id_key: Name
-#     layout: speaker_page
-
-#   volunteers:
-#     output: true
-#     source: volunteers.csv
 #     id_key: Name
 #     layout: speaker_page
